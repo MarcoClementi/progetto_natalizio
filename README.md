@@ -1,8 +1,8 @@
-# progetto_natalizio🎅
+# PROGETTO_NATALIZIO🎅
 
-# WeatherApp
+# MeteoApi
 
-WeatherApp è un'applicazione Python che permette agli utenti di controllare le condizioni meteo di una specifica città utilizzando l'API OpenWeatherMap.
+MeteoApi è un'applicazione Python che permette agli utenti di controllare le condizioni meteo di una specifica città utilizzando l'API OpenWeatherMap.
 
 ## Funzionalità
 - Recupero dei dati meteo in tempo reale per una città specificata.
@@ -41,11 +41,6 @@ Crea un file `config.py` nella directory principale del progetto e aggiungi la t
 API_KEY = "your_api_key"
 ```
 
-In alternativa, puoi impostare la chiave API come variabile d'ambiente:
-```bash
-export API_KEY="your_api_key"
-```
-
 ### 3. Esegui l'Applicazione
 Esegui il programma utilizzando:
 ```bash
@@ -80,8 +75,6 @@ Tramonto: 2025-01-09 17:05:00 ora locale
 - **`WeatherApp`**: Classe principale che interagisce con l'utente e visualizza i dati meteo.
 - **`main.py`**: Punto di ingresso per eseguire l'applicazione.
 
-## Contributi
-Contributi sono benvenuti! Sentiti libero di aprire un problema o inviare una pull request per miglioramenti o suggerimenti.
 
 ## Licenza
 Questo progetto è distribuito sotto licenza MIT. Consulta il file `LICENSE` per ulteriori dettagli.
